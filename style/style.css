@@ -1,0 +1,153 @@
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: Lato;
+}
+
+#header{
+    text-align: center;
+    width:auto;
+    display:block;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0%;
+    font-size: 50px;
+    color:white;
+    /* background-color: rgb(70, 103, 255); */
+}
+
+hr{
+    border: 1px solid black;
+}
+
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    background-color: #000000;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+font-family:'Montserrat', sans-serif; }
+#nav li {
+    float: left; }
+#nav li a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    /**border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;**/
+}
+#nav li a:hover {
+    color: #c00;
+    background-color: #fff;
+}
+#right li{
+    float: right;
+}
+#right li a {
+    float: right;
+    display: inline;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    /**
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc; **/
+}
+#right li a:hover {
+    color: #c00;
+    background-color: #fff;
+}
+
+
+#right ul{
+    display:none;
+    position: relative;
+  }
+
+  #right ul li{ /** Dropdown Content **/
+    float: left;
+    position: relative;
+    background-color: #f6f6f6;
+
+  }
+  #right ul li a{ /** Links **/
+    float: right;
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    /**border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;**/
+    width: 100%
+  }
+
+  #right li:hover ul{
+    display:inline-block;
+    position:relative;
+    background-color: #fff;
+}
+
+
+
+
+
+
+body {
+    background-color: #2fd6ce;
+    font-family: 'Merriweather', serif;
+}
+
+.content{
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+#create{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px;
+}
+
+h2{
+    text-align: center;
+}
+
+* {box-sizing:border-box}
+.slideshow {
+    max-width: 1700px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    color: white;
+    font-size: 25px;
+    border-radius: 0 3px 3px 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -15px;
+    padding: 20px;
+
+  }
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
